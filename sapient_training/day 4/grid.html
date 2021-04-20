@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <style>
+            .calculator-main{
+                display:grid;
+               grid-template-areas: 'header header header header header header'
+                                    'menu main main main advertisement advertisement'
+                                    'menu footer footer footer footer footer';
+                padding: 10px;
+                grid-gap: 10px;
+            }
+            .g-i1{
+                grid-area: header;
+                border: 3px solid blue;
+            }
+            .g-i2{
+                grid-area: menu;
+                border: 3px solid blue;
+            }
+            .g-i3{
+                grid-area: main;
+                border: 3px solid blue;
+            }
+            .g-i4{
+                grid-area: advertisement;
+                border: 3px solid blue;
+            }
+            .g-i5{
+                grid-area: footer;
+                border: 3px solid blue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="calculator-main">
+            <div class="g-i1">Header</div>
+            <div class="g-i2">Menu</div>
+            <div class="g-i3">Main</div>
+            <div class="g-i4">Advertisement</div>
+            <div class="g-i5">Footer</div>
+            
+           
+        </div>
+    </body>
+</html>
